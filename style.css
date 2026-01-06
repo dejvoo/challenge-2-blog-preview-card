@@ -1,66 +1,64 @@
 body {
-    background-color: hsl(47, 88%, 63%);
-    font-family: 'Figtree';
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
 }
 
 .container {
-    min-height: 100svh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .illustration {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
-.main-content { 
-    background-color: white;
-    max-width: 375px;
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 8px 8px 0px 0px black;
-    padding: 20px;
+.main-content {
+  background-color: white;
+  max-width: 375px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px black;
+  padding: 20px;
 }
 
 .pseudo {
-    margin-top: 20px;
-    border: none;
-    background-color: hsl(47, 88%, 63%);
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-
+  margin-top: 20px;
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .card-heading {
-        color: hsl(0, 0%, 7%);
+  color: hsl(0, 0%, 7%);
 }
 
 .card-text {
-    font-size: 16px;
-    color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
 }
 
 .author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 24px;
-
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 .avatar {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .avatar-name {
-    font-weight: bold;
-    margin: 0;
-    color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  margin: 0;
+  color: hsl(0, 0%, 7%);
 }
